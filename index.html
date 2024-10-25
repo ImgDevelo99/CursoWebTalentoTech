@@ -7,11 +7,14 @@
 </head>
 
 <body>
-<h1>ETIQUETAS DE TEXTO</h1>
-<h2>subtitulo</h2>
-<h3>subtitulo</h3>
-<h4>subtitulo</h4>
-<h5>subtitulo</h5>
+
+    <h1>ETIQUETAS DE TEXTO</h1>
+    <h2>subtitulo</h2>
+    <h3>subtitulo</h3>
+    <h4>subtitulo</h4>
+    <h5>subtitulo</h5>
+
+
 <!-- <h6>subtitulo</h6> -->
 
 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis eveniet sit ad quis fuga accusamus, tempore eius in recusandae provident, veritatis fugit nam distinctio perferendis, culpa voluptas! Nostrum, consequuntur harum.</p> 
@@ -22,7 +25,6 @@
 
 <P><del>ESTE ES UN TEXTO</del> <ins>DE PRUEBA PARA CONOCER</ins> LAS ETIQUETAS</P>
 
-    
 <h2>Listas ordenadas</h2>
 <ol>
     <li>elemnto 1</li>
@@ -133,10 +135,87 @@
     </tbody>
 </table>
 
+<h1>Mi formulario</h1><br>
+<form action="formulario.php" method="post">
+    <label>Nombre: </label><br>
+    <input type="text" id="name" name="name" required><br>
+    <label>Numero:</label><br>
+    <input type="number" min="1" max="12"><br>
 
+    <label for="">Correo</label><br>
+    <input type="email" placeholder="ingrese el email"><br>
+    
+    <label for="">selecciones su lenguaje:</label><br>
 
+    <input type="radio" id="opcion1" name="radio" value="opcion 1">  
+    <label for="opcion1">html</label><br>  
 
+    <input type="radio" id="opcion2" name="radio" value="opcion 2">  
+    <label for="opcion2">CSS</label><br>  
 
+    <input type="radio" id="opcion3" name="radio" value="opcion 3">  
+    <label for="opcion3">PYTHON</label><br> 
+    
+    <label for="">sleccione ciudad favorita:</label><br>
+    <input type="checkbox" id="checkbox" value="ciudad">
+    <label for="Ciudad">Bogota</label><br>
+
+    <input type="checkbox" id="checkbox" value="ciudad">
+    <label for="Ciudad">Medellin</label><br>
+
+    <input type="checkbox" id="checkbox" value="ciudad">
+    <label for="Ciudad">Cali</label><br>
+
+    <label for="">Ingrese su contraseña</label><br>
+    <input type="password"><br>
+   
+    <label for="">Ingrese su fecha:</label><br>
+    <input type="date"><br>
+
+    <label for="">Rango</label><br>
+    <input type="range" min="0" max="100"><br>
+
+    <label for="">Color:</label><br>
+    <input type="color"><br>
+
+    <label for="">subir documento</label><br>
+    <input type="file"><br>
+
+    <label for="">ingrese su mensaje</label><br>
+    <textarea></textarea><br><br>
+
+    <label for="">buscar</label>
+    <input type="search"><br>
+
+    <label for="">Seleccione pais</label>
+    <select name="select" id="select">
+        <option value="opcion1">Colombia</option>
+        <option value="opcion2">Argentina</option>
+        <option value="opcion3">Brasil</option>
+        <option value="opcion4">España</option>
+    </select><br>
+
+    <button>Enviar</button>    
+</form>
+<!--las etiquetas div es un contenedor generico y se utiliza para agrupar elemento para organizar el contenido de una pagina-->
+
+<div class="container">
+    <h1>utilizando el div</h1>
+    <h2>subtitulo</h2>
+    <h3>subtitulo</h3>
+    <h4>subtitulo</h4>
+    <h5>subtitulo</h5>
+</div> 
+
+<style>
+    .container{
+        color: rgb(21, 70, 2);
+        background-color: rgb(151, 151, 255);
+        width: 50%;
+        border-radius: 10px;
+
+    }
+</style>
 
 
 
