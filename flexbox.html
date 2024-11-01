@@ -1,0 +1,121 @@
+<!-- 
+FLEXBOX
+es un modelo de diseño en CSS diseñado para crear layaout  mas eficientes y organizados
+en una sola dimension: horizontalmente o verticalmente, es un modelo qu permite distribuir
+el espacio entre elementos y alinear  contenido de manera flexible.
+-alinear y distribuir espacios
+-crar diseños responsivos.
+-simplifica la alineacion.
+
+----Propiedades para contenedor flexible----
+1. display: flex activa el modelo de flexbox en el contenedo
+2. flex: direction define a direccion del elemento (row column)
+3. justify-content alinea los elementos horizontalmente (star,end,center,space-between,space-around)
+4. aling-items alinea los elementos verticalmente (flex-star, center, stretch, baseline)
+5. flex-wrap controla los elementos si se deben de ajustar a una linea cuando el contenedor es pequeño(wrap, nowrap)
+
+----porpiedades de elementos flex----------
+1. flex-grow  define como el elemento crece proporcion a los otros
+2. flex-shrink define como el elemento se reduce en proporcion a los otros
+3. flex-basis define el tamaño inicial del elemento
+4. aling-self permite alinear un elemento individualmente ( auto, flex-star, center, etc)
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="flexbox.css">
+    <title>Document</title>
+</head>
+<body>
+  
+    <div class="product-gallery">
+
+        <div class="product-card">
+            <img src="https://www.coolmod.com/blog/wp-content/uploads/2024/06/bbp1.jpg" alt="">
+            <div class="product-info">
+                <div class="product-name">Producto 1</div>
+                <div class="product-price">$35.000</div>
+                <button class="buy-button">Comprar</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="https://clonesyperifericos.com/wp-content/uploads/msi-portatil-katana-intel-40502.jpg" alt="">
+            <div class="product-info">
+                <div class="product-name">Producto 2</div>
+                <div class="product-price">$15.000</div>
+                <button class="buy-button">Comprar</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="https://cnnespanol.cnn.com/wp-content/uploads/2021/08/acer-computadora-gaming.png" alt="">
+            <div class="product-info">
+                <div class="product-name">Producto 3</div>
+                <div class="product-price">$86.000</div>
+                <button class="buy-button">Comprar</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="https://www.coolmod.com/blog/wp-content/uploads/2024/06/bbp1.jpg" alt="">
+            <div class="product-info">
+                <div class="product-name">Producto 4</div>
+                <div class="product-price">$135.000</div>
+                <button class="buy-button">Comprar</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="https://www.coolmod.com/blog/wp-content/uploads/2024/06/bbp1.jpg" alt="">
+            <div class="product-info">
+                <div class="product-name">Producto 5</div>
+                <div class="product-price">$345.000</div>
+                <button class="buy-button">Comprar</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="https://www.coolmod.com/blog/wp-content/uploads/2024/06/bbp1.jpg" alt="">
+            <div class="product-info">
+                <div class="product-name">Producto </div>
+                <div class="product-price">$50.000</div>
+                <button class="buy-button">Comprar</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="https://www.coolmod.com/blog/wp-content/uploads/2024/06/bbp1.jpg" alt="">
+            <div class="product-info">
+                <div class="product-name">Producto </div>
+                <div class="product-price">$50.000</div>
+                <button class="buy-button">Comprar</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="https://www.coolmod.com/blog/wp-content/uploads/2024/06/bbp1.jpg" alt="">
+            <div class="product-info">
+                <div class="product-name">Producto </div>
+                <div class="product-price">$50.000</div>
+                <button class="buy-button">Comprar</button>
+            </div>
+        </div>
+
+        
+
+
+
+
+
+    </div>
+
+    
+
+
+
+    
+</body>
+</html>
